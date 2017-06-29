@@ -4,10 +4,11 @@ class ProductRow extends Component {
   constructor (){
     super ()
   }
+
   render() {
     return (
       <div>
-        <h6>ProductRow</h6>
+          {this.props.name}
       </div>
     );
   }

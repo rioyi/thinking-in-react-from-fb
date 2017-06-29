@@ -8,7 +8,7 @@ class ProductCategoryRow extends Component {
   render() {
     return (
       <div>
-        <h4>ProductCategoryRow</h4>
+        <h4>{this.props.category}</h4>
       </div>
     );
   }

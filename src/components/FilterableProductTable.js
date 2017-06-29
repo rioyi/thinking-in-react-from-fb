@@ -12,7 +12,7 @@ class FilterableProductTable extends Component {
       <div>
       <h1>hello</h1>
         <SearchBar/>
-        <ProductTable/>
+        <ProductTable products = {this.props.store}/>
       </div>
     )
   }
